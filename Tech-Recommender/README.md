@@ -43,10 +43,6 @@ This system follows a strict architectural pipeline to transform raw user data i
    ```
 4. Follow the onboarding prompt and enter at least 3 skills (e.g., `Python, Cloud, Automation`).
 
-## 📸 Demo / Output
-![Recommendation Output](output_screenshot.png)
-*Console output demonstrating the Ingestion → Scoring → Sorting → Filtering pipeline in action.*
-
 ## 📂 Project Structure
 ```
 decodelabs-project3-tech-recommender/
