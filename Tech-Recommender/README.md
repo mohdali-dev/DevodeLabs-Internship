@@ -1,6 +1,4 @@
-Here is a **professional, DecodeLabs-aligned README.md** that directly references the terminology, architecture, and guidelines from your official Project 3 PDF. Copy and paste this directly into your GitHub repository.
 
-```markdown
 # 🚀 DecodeLabs Project 3: AI Tech Stack Recommender
 
 ## 📌 Project Overview
