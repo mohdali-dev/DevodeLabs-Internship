@@ -1,3 +1,6 @@
+Here is a **professional, DecodeLabs-aligned README.md** that directly references the terminology, architecture, and guidelines from your official Project 3 PDF. Copy and paste this directly into your GitHub repository.
+
+```markdown
 # 🚀 DecodeLabs Project 3: AI Tech Stack Recommender
 
 ## 📌 Project Overview
@@ -30,3 +33,41 @@ This system follows a strict architectural pipeline to transform raw user data i
    ```bash
    git clone https://github.com/your-username/decodelabs-project3-tech-recommender.git
    cd decodelabs-project3-tech-recommender
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the recommendation engine:
+   ```bash
+   python recommender.py
+   # OR open and run the Colab notebook: Project3_Tech_Recommender.ipynb
+   ```
+4. Follow the onboarding prompt and enter at least 3 skills (e.g., `Python, Cloud, Automation`).
+
+## 📸 Demo / Output
+![Recommendation Output](output_screenshot.png)
+*Console output demonstrating the Ingestion → Scoring → Sorting → Filtering pipeline in action.*
+
+## 📂 Project Structure
+```
+decodelabs-project3-tech-recommender/
+├── recommender.py              # Core recommendation logic (4-step pipeline)
+├── Tech_Recommender.ipynb # Google Colab notebook version
+├── raw_skills.csv              # Dataset: Job roles & required skills
+├── requirements.txt            # Python dependencies
+├── Screenshot      # Terminal output documentation
+└── README.md                   # Project documentation
+```
+
+## ✅ DecodeLabs Compliance Checklist
+- [x] Implements Content-Based Filtering & TF-IDF + Cosine Similarity
+- [x] Follows the strict 4-step IPO pipeline (Ingestion, Scoring, Sorting, Filtering)
+- [x] Bypasses User Cold Start via mandatory 3-skill onboarding
+- [x] Prevents Choice Overload with Top-N truncation
+- [x] Clean, modular, and fully documented code
+
+---
+*Built as part of the DecodeLabs Artificial Intelligence Industrial Training Kit | Project 3: AI Recommendation Logic*  
+*Intern: Muhammad Ali | GitHub: https://github.com/mohdali-dev*
+```
